@@ -1,10 +1,12 @@
 package com.example.chetrobot;
 
+import java.security.PublicKey;
+
 public class ListData {
 
 	private String content;
-	private final static int CLIENT = 1;
-	private final static int SERVER = 2;
+	public final static int SEND = 1;
+	public final static int RECEIVER = 2;
 	private int flag;
 	
 	public ListData(String content,int flag){
